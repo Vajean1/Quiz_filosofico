@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Uma Jornada Filosófica - QUIZ</title>
+  <link rel="stylesheet" href="/static/CSS/style.css">
+</head>
+<body>
+  <!-- Splash de abertura -->
+  <div id="splash">
+    <img src="/static/UPLOADS/filosofo_1.png" alt="Imagem filosofo">
+    <div>Bem-vindo ao Quiz Filosófico!</div>
+    <div style="font-size: 0.8em; margin-top: 10px;">Explore os mistérios da filosofia na Grécia Antiga</div>
+  </div>
+  
+  <div class="quiz-container">
+    <h1>Desafio Filosófico 🏛️</h1>
+    <div class="score">Pontuação: <span id="score">0</span></div>
+    <div id="questionCount" class="question-count"></div>
+    <div class="progress">
+      <div class="progress-bar" style="width: 0%"></div>
+    </div>
+    <div id="question" class="question"></div>
+    <div class="options" id="options"></div>
+    <div id="feedback" class="feedback"></div>
+    <button onclick="restartQuiz()" class="restart-btn" id="restart">Reiniciar Quiz</button>
+  </div>
+  
+  <!-- animação -->
+  <div id="philosopherAnimation">
+    <div class="philosopher">🤔😉</div>
+  </div>
+  
+  <!-- imagem na finalização do quiz -->
+  <div id="finalImage">
+    <img src="/static/UPLOADS/filosofo_2.png" alt="imagem filosofo_2">
+  </div>
+  <script src="/static/JS/script.js"></script>
+</body>
+</html>
